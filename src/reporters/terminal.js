@@ -19,7 +19,7 @@ export function reportTerminal(result, root) {
     console.log(
       pc.green('✔ No unused exports found') +
         pc.dim(
-          ` — scanned ${fileCount} files, ${totalExports} exports all reachable.`
+          ` - scanned ${fileCount} files, ${totalExports} exports all reachable.`
         )
     );
     return;

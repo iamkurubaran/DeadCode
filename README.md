@@ -6,7 +6,7 @@ A fast, zero-config CLI for finding exports that are imported nowhere in your pr
 [![npm downloads](https://img.shields.io/npm/dm/@iamkurubaran/dead-code.svg)](https://www.npmjs.com/package/@iamkurubaran/dead-code)
 [![node](https://img.shields.io/node/v/@iamkurubaran/dead-code.svg)](https://nodejs.org)
 [![license](https://img.shields.io/npm/l/@iamkurubaran/dead-code.svg)](./LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-iamkurubaran%2FDeadCode-181717?logo=github)](https://github.com/iamkurubaran/DeadCode)
+[![npm package](https://img.shields.io/badge/npm-%40iamkurubaran%2Fdead-code-blue?logo=npm)](https://www.npmjs.com/package/@iamkurubaran/dead-code)
 
 ## Why this tool exists
 

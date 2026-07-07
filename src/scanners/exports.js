@@ -51,7 +51,7 @@ export function extractExports(code) {
     for (const name of parseExportSpecifiers(m[1])) add(name, m.index, 'named');
   }
 
-  // export * from './x'  — re-export star (treated as a usage passthrough)
+  // export * from './x' - re-export star (treated as a usage passthrough)
   for (const m of code.matchAll(/\bexport\s*\*\s*from\s*['"][^'"]*['"]/g)) {
     add('*', m.index, 'star');
   }

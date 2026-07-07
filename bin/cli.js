@@ -6,7 +6,7 @@ import { reportTerminal } from '../src/reporters/terminal.js';
 import { reportJson } from '../src/reporters/json.js';
 
 const HELP = `
-${pc.bold('dead-code')} — find unused exports across a monorepo
+${pc.bold('dead-code')} - find unused exports across a monorepo
 
 ${pc.bold('USAGE')}
   dead-code [paths...] [options]

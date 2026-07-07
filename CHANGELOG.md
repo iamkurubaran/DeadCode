@@ -37,6 +37,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `--fail-on-found` flag for CI pipelines.
 - Programmatic API via `findDeadCode()`.
 
-[1.0.2]: https://github.com/iamkurubaran/DeadCode/releases/tag/v1.0.2
-[1.0.1]: https://github.com/iamkurubaran/DeadCode/releases/tag/v1.0.1
-[1.0.0]: https://github.com/iamkurubaran/DeadCode/releases/tag/v1.0.0
+[1.0.2]: https://www.npmjs.com/package/@iamkurubaran/dead-code/v/1.0.2
+[1.0.1]: https://www.npmjs.com/package/@iamkurubaran/dead-code/v/1.0.1
+[1.0.0]: https://www.npmjs.com/package/@iamkurubaran/dead-code/v/1.0.0

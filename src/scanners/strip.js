@@ -6,7 +6,7 @@
  * We replace removed characters with spaces (newlines preserved) so indices
  * stay stable and line counts remain accurate for reporting.
  *
- * This is a lightweight lexer — not a full parser — but it correctly handles
+ * This is a lightweight lexer - not a full parser - but it correctly handles
  * the tricky cases (regex vs division, template literals, nested comments in
  * strings) well enough for import/export discovery.
  *
@@ -77,7 +77,7 @@ export function stripNonCode(src, defuseStrings = false) {
       continue;
     }
 
-    // Regex literal — only if a regex can legally start here.
+    // Regex literal - only if a regex can legally start here.
     if (c === '/' && canRegexFollow(prevSignificant)) {
       let j = i + 1;
       let inClass = false;
