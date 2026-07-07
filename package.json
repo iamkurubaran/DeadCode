@@ -1,0 +1,65 @@
+{
+  "name": "@iamkurubaran/dead-code",
+  "version": "1.0.1",
+  "description": "Find unused exports across a monorepo — not just per-file. A fast, zero-config CLI that builds a cross-file module graph and reports exports that are imported nowhere.",
+  "keywords": [
+    "dead-code",
+    "unused-exports",
+    "unused-code",
+    "monorepo",
+    "tree-shaking",
+    "linter",
+    "static-analysis",
+    "code-cleanup",
+    "refactoring",
+    "cli",
+    "typescript",
+    "javascript",
+    "esm",
+    "commonjs"
+  ],
+  "license": "MIT",
+  "author": "Kurubaran Anandhan",
+  "type": "module",
+  "bin": {
+    "dead-code": "bin/cli.js"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node bin/cli.js",
+    "lint:self": "node bin/cli.js \"src/**/*.js\" \"bin/**/*.js\" --entry \"src/index.js\" --entry \"bin/cli.js\"",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2",
+    "picocolors": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkurubaran/DeadCode.git"
+  },
+  "homepage": "https://github.com/iamkurubaran/DeadCode#readme",
+  "bugs": {
+    "url": "https://github.com/iamkurubaran/DeadCode/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

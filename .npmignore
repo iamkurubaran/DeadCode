@@ -1,0 +1,9 @@
+node_modules
+test
+NOTES.md
+PUBLISHING.md
+.gitignore
+.npmignore
+*.log
+*.tgz
+coverage
