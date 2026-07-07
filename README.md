@@ -7,6 +7,7 @@ A fast, zero-config CLI for finding exports that are imported nowhere in your pr
 [![node](https://img.shields.io/node/v/@iamkurubaran/dead-code.svg)](https://nodejs.org)
 [![license](https://img.shields.io/npm/l/@iamkurubaran/dead-code.svg)](./LICENSE)
 [![npm package](https://img.shields.io/badge/npm-%40iamkurubaran%2Fdead-code-blue?logo=npm)](https://www.npmjs.com/package/@iamkurubaran/dead-code)
+[![Support @iamkurubaran on Chai4Me](https://chai4.me/badge.svg)](https://chai4.me/iamkurubaran)
 
 ## Why this tool exists
 
