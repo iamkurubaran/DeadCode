@@ -1,6 +1,6 @@
 {
   "name": "@iamkurubaran/dead-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Find unused exports across a monorepo — not just per-file. A fast, zero-config CLI that builds a cross-file module graph and reports exports that are imported nowhere.",
   "keywords": [
     "dead-code",
